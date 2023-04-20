@@ -219,19 +219,10 @@ const columnDefsAccounts = [
     enableRowGroup: true,
   },
   {
-    field: 'searchable',
-    headerName: 'Search',
+    field: 'strategy_name',
+    headerName: 'Strategy',
     editable: true,
     enableRowGroup: true,
-  },
-  {
-    field: 'fightable',
-    headerName: 'Fight',
-    editable: true,
-    enableRowGroup: true,
-    cellRenderer: (params) => {
-      return params.value.toString();
-    },
   },
 ];
 
